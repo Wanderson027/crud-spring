@@ -2,6 +2,8 @@ package com.example.crudspring.controller;
 
 import java.util.List;
 
+import com.example.crudspring.model.Course;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CourseController {
 
     @GetMapping
-    public List<Object> list(){
+    public List<Course> list(){
         return null;
     }
 
